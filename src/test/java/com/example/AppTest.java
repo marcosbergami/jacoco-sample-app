@@ -36,7 +36,7 @@ public class AppTest {
         System.setOut(System.out);
 
         // Verify the output
-        String expectedOutput = "Result: 5"; // This is the output of App.add(2, 3);
+        String expectedOutput = "Result is: 5"; // This is the output of App.add(2, 3);
         assertEquals(expectedOutput, outputStream.toString().trim());
     }
 
